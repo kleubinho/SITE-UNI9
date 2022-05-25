@@ -8,17 +8,20 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="home">
   <header>
-        <h1 class="title" >Web-rest</h1>   
-        <a href="#">Sobre Nós</a>
-        <a href="#">Como funciona</a>
-        <a href="#">Projetos</a>
-        <a href="#">Contatos</a>
-        <div>
+    <ul>
+      <nav>
+        <h2 class="title" >Web-rest</h2>   
+        <a onclick="teste('sobre')" href="#">Sobre Nós</a>
+        <a onclick="teste('funciona')" href="#">Como funciona</a>
+        <a onclick="teste('projetos')" href="#">Projetos</a>
+        <a  href="#">Contatos</a>
+        <div class="theme">
+          <p>Tema do site</p>
           <input id="chk" type="checkbox"m class="checkbox">
           <label class="label" for="chk">
             <i class="fa fa-sun"></i>
@@ -26,14 +29,19 @@
             <div class="ball"></div>
           </label>
         </div>
-        
+      </nav>
+     
+    </ul>               
   </header>
 
   <div class="content">
    <main>
     <div class="container" id="sobre">
-      <h2>Sobre nós</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
+      <div>
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
+      </div>
+      
       <i class="fa-solid fa-rocket"></i>
     </div>
         
@@ -42,18 +50,18 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
     </div>
       
-      <div class="container" id="projetos">
+    <div class="container" id="projetos">
+      <h2>Projetos</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
+    </div>
+      <!-- <div class="container" id="projetos">
       <h2>Projetos</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
     </div>
       <div class="container" id="projetos">
       <h2>Projetos</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
-    </div>
-      <div class="container" id="projetos">
-      <h2>Projetos</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex vero obcaecati ratione accusantium repellendus voluptas libero, sed ut pariatur ea itaque illo provident perspiciatis. Mollitia temporibus quasi minima modi magni.</p>
-    </div>
+    </div> -->
    </main>
   </div> 
 
