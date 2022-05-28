@@ -7,7 +7,6 @@ chk.addEventListener("change", () => {
 function teste(value) {
   if (value == "sobre") {
       sobre.classList.toggle("testeDeCor");
-    //   sobre.classList.remove("testeDeCor");
     console.log("mudei");
   } else if (value == "funciona") {
     funciona.classList.toggle("testeDeCor");
