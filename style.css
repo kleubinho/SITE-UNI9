@@ -24,6 +24,11 @@ body {
 
 body.dark {
   background-color: #09090a;
+  color: white;
+}
+
+h1.light{
+  color: white;
 }
 
 .checkbox {
@@ -86,6 +91,10 @@ body.dark {
 
 .title{
   font-size:20px;
+}  
+
+.colorWhite {
+  color: #fff;
 }
 
 header {
@@ -171,6 +180,9 @@ footer {
   justify-content: space-evenly;
 }
 
+h1.light{
+  color: white;
+}
 
 .icon {
   padding: 8px;
